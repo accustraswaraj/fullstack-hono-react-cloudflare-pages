@@ -1,0 +1,32 @@
+name = "fullstack-hono-react-cloudflare-pages"
+main = "./api.js"
+compatibility_date = "2025-01-01"
+
+# compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+# MY_VAR = "my-variable"
+AUTH_SECRET= "vine123"
+AUTH_URL = "http://127.0.0.1:5173/api/auth"
+GITHUB_ID = "Ov23liyw76y7o3DdBkvx"
+GITHUB_SECRET = "9fbcd1a36fc0b5c1107f276a39ea2aabd848148e"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1
