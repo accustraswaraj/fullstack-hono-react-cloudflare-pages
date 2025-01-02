@@ -24,7 +24,12 @@ const AppContent = () => {
   }, []);
 
   if (session.status === "authenticated") {
-    return <div>I am {JSON.stringify(session)}</div>;
+    return (
+      <>
+        <div>I am {JSON.stringify(session)}</div>
+        <a href="/api/auth/signout"><button type="submit">Logout</button></a>
+      </>
+    );
   } else {
     return (
       <div>
