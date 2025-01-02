@@ -11,26 +11,28 @@ Currently, two official plugins are available:
 
 Set the following environment variables in your Cloudflare Pages App:
 
-``AUTH_SECRET="any-secret"
+```
+AUTH_SECRET="any-secret"
 AUTH_URL="http://{your-app-domain}/api/auth"
 GITHUB_ID="your-github-app-id"
-GITHUB_SECRET="your-github-app-secret"``
+GITHUB_SECRET="your-github-app-secret"
+```
 
 
-## GitHub App Callback URL
+### GitHub App Callback URL
 
 In your GitHub App's settings, set the callback URL to:
 
 `http://{your-app-domain}/api/auth/callback/github`
 
-# Clone this repository
+### Clone this repository
 `git clone <repository-url>`
 
-# Install dependencies
+### Install dependencies
 `npm install`
 
-# Run the frontend development server
+### Run the frontend development server
 `npm run dev`
 
-# Run the backend development server
+### Run the backend development server
 `wrangler dev`
