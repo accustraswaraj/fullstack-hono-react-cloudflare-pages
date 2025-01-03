@@ -23,7 +23,7 @@ app.use('/api/auth/*', authHandler())
 
 app.use('/api/*', verifyAuth())
 
-app.get('/api', (c) => c.text('Hello Cloudflare Workers!'))
+app.get('/api', (c) => c.text('Hello Cloudflare Workers!!'))
 
 app.get('/api/users', (c) => c.text('Hello Cloudflare Workers! - Users Path'))
 
